@@ -30,8 +30,8 @@ export function Home() {
       {
         text: "sim",
         onPress: () =>
-          setParticipants((prevState) =>
-            prevState.filter((participant) => participant !== name)
+          setParticipants(() =>
+            participants.filter((participant) => participant !== name)
           ),
       },
       {
