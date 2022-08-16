@@ -4,16 +4,15 @@
     "slug": "frontexp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/expedy.jpg",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/expedy.jpg",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#1f1e25"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 150000,
-      "url": "https://u.expo.dev/72fcceef-62a6-4ac6-8322-0bca8e82c5a6"
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,16 +22,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/expedy.jpg",
-        "backgroundColor": "#1f1e25"
-      },
-      "package": "com.expedy.frontexp"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
     }
   }
 }
